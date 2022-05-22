@@ -32,8 +32,8 @@ public class CityListTest {
     {
         CityList cityList=new CityList();
         City city1=new City("Bogura", "RR");
-        City city2=new City("Natore","TR");
         cityList.add(city1);
+        City city2=new City("Natore","TR");
         cityList.add(city2);
 
         cityList.delete(city1);
@@ -98,7 +98,7 @@ public class CityListTest {
 
         CityList cityList=new CityList();
 
-        City city1=new City("Regina","SK");
+        City city1=new City("Regina","AB");
         cityList.add(city1);
 
 
@@ -106,8 +106,8 @@ public class CityListTest {
         City city2= new City("Charlottetown", "Prince Edward Island");
         cityList.add(city2);
 
-        assertEquals(0, city1.compareTo(cityList.getCities(2).get(1)));
-        assertEquals(0, city2.compareTo(cityList.getCities(2).get(0)));
+        assertEquals(0, city1.compareTo(cityList.getCities(1).get(1)));
+        assertEquals(0, city2.compareTo(cityList.getCities(1).get(0)));
 
     }
 

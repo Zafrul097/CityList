@@ -28,7 +28,7 @@ public class CityList {
     /**
      * This returns a sorted list of cities by CityName or ProvinceName
      * @param para
-     * if para==1 sort by CityName or sort by ProvinceName
+     * if para==1 sort by CityName else sort by ProvinceName
      *
      * @return
      *      Return the sorted list of cities
@@ -55,7 +55,7 @@ public class CityList {
 
 
     /**
-     * This deletes a city to the list if that city exist
+     * This deletes a city to the list if that city does exist
      * @param city
      *    This is the city to delete
      *
